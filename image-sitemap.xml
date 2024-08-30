@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>https://irudrapatel.github.io/</loc>
+	<lastmod>2024-06-27T07:14:23+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/logo.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/section/hero-img.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/icon/resume-icon1.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/icon/resume-icon2.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/portfolio/portfolio1.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/portfolio/portfolio2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/portfolio/portfolio3.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/portfolio/portfolio4.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/portfolio/portfolio5.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/portfolio/portfolio6.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://irudrapatel.github.io/about</loc>
+	<lastmod>2024-06-27T07:14:23+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://irudrapatel.github.io/resume</loc>
+	<lastmod>2024-06-27T07:14:23+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://irudrapatel.github.io/portfolio</loc>
+	<lastmod>2024-06-27T07:14:23+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://irudrapatel.github.io/assets/img/portfolio/portfolio7.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://irudrapatel.github.io/contact</loc>
+	<lastmod>2024-06-27T07:14:23+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://irudrapatel.github.io/assets/resume/cv.pdf</loc>
+	<lastmod>2024-06-27T07:14:23+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://irudrapatel.github.io/portfolio.html</loc>
+	<lastmod>2024-06-27T07:14:23+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>

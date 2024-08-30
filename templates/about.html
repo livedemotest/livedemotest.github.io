@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+{% extends "base.html" %}
+
+{% block content %}
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Laralink">
+  <!-- Page Title -->
+  <title>Patel Rudra - About</title>
+  <!-- Favicon Icon -->
+  <link rel="icon" href="{{ url_for('static', filename='assets/img/favicon.png') }}" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/fontawesome.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/slick.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/lightgallery.min.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/animate.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}" />
+</head>
+
+<body id="home">
+  <!-- Start Header Section -->
+  <header class="st-site-header st-style1 st-sticky-header">
+    <div class="st-main-header">
+      <div class="container">
+        <div class="st-main-header-in">
+          <div class="st-main-header-left">
+            <a class="st-site-branding" href="/"><img src="{{ url_for('static', filename='assets/img/logo.png') }}" alt="Davis"></a>
+          </div>
+          <div class="st-main-header-right">
+            <div class="st-nav">
+              <ul class="st-nav-list st-onepage-nav">
+                <li><a href="/" class="st-smooth-move" style="color: #FDFEFF;">Home</a></li>
+                <li><a href="./about" class="st-smooth-move about-link" style="color: #FEC544;">About</a></li>
+                <li><a href="./resume" class="st-smooth-move">Resume</a></li>
+                <li><a href="./portfolio" class="st-smooth-move">Portfolio</a></li>
+                <li><a href="./contact" class="st-smooth-move">Contact</a></li>
+              </ul>
+              <div class="sp-phone">
+                <svg viewBox="0 0 513.64 513.64">
+                  <g>
+                    <g>
+                      <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
+                    </g>
+                  </g>
+                </svg>
+                <div class="sp-phone-no">+91 816 087 3680</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header Section -->
+
+  <!-- Start Hero Seciton -->
+  <!-- End Hero Seciton -->
+
+  <!-- Start About Seciton -->
+  <section id="about" class="st-about-wrap">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">ABOUT ME</h4>
+        <h2 class="st-section-heading-subtitle">ABOUT ME</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 wow fadeInLeft">
+          <div class="st-about-img-wrap">
+            <div class="st-about-img st-dynamic-bg st-bg" data-src="{{ url_for('static', filename='assets/img/section/about.jpg') }}"></div>
+          </div>
+          <div class="st-height-b0 st-height-lg-b30"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="st-vertical-middle">
+            <div class="st-vertical-middle-in">
+              <div class="st-text-block st-style1">
+                <h2 class="st-text-block-title">Hi There! I'm Rudra Patel</h2>
+                <h4 class="st-text-block-subtitle">Visual Designer</h4>
+                <div class="st-text-block-text">
+                  <p>I specialize in creating captivating visual experiences across various design mediums. From logo and poster design to branding, 
+                    packaging, and WordPress website development, I craft unique and memorable designs that resonate with audiences. 
+                    With skills in UI/UX design and motion graphics, I bring creativity and innovation to every project, 
+                    ensuring a seamless blend of aesthetics and functionality. Let my portfolio showcase my diverse range 
+                    of talents and passion for elevating brands through exceptional design.</p>
+                </div>
+                <ul class="st-text-block-details st-mp0">
+                  <li><span>Birthday</span> : <span>Jun 11, 2003</span></li>
+                  <li><span>Phone</span> : <span>+91 816-087-3680</span></li>
+                  <li><span>Email</span> : <span>rapatel11623@gmail.com</span></li>
+                  <li><span>From</span> : <span>Ahmedabad Gujarat India,380015</span></li>
+                  <li><span>Language</span> : <span>English, Hindi,Gujariti</span></li>
+                  <li><span>Freelance</span> : <span>Available</span></li>
+                </ul>
+                <div class="st-text-block-btn">
+                  <a href="{{ url_for('static', filename='assets/resume/cv.pdf') }}" class="st-btn st-style1 st-color1" target="_blank">Download CV</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Seciton -->
+
+  <!-- Start Footer Seciton -->
+  <footer>
+    <div class="container">
+      <div class="st-copyright-wrap text-center">
+        <div class="st-copyright-text">© 2024. Designed by Rudra Patel. All right reserved.</div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Seciton -->
+
+  <!-- Scripts -->
+  <script src="{{ url_for('static', filename='assets/js/jquery-1.12.4.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/jquery.slick.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/lightgallery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/wow.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/ripples.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/particles.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+</body>
+{% endblock %}
+</html>
